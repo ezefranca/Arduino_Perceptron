@@ -1,8 +1,9 @@
-# Arduino_Perceptron
-A perceptron algorithm for machine learning in Arduino
+# Arduino Perceptron
+
+A [perceptron](https://en.wikipedia.org/wiki/Perceptron) algorithm for machine learning in Arduino
 
 ## Usage
-asdasd
+
 1. Create object class perceptron, e.g. perceptron p1(number of inputs);
 2. Randomize weights,  p1.randomize();
 3. In loop update inputs e.g. p1.inputs[0] = analogRead...; p1.inputs[2] = analogRead...
