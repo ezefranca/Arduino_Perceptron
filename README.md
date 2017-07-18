@@ -1,8 +1,8 @@
 # Arduino_Perceptron
-Un perceptrón programado para aprendiaje mecánico en Arduino
+A perceptron algorithm for machine learning in Arduino
 
-##Ussage
-
+## Usage
+asdasd
 1. Create object class perceptron, e.g. perceptron p1(number of inputs);
 2. Randomize weights,  p1.randomize();
 3. In loop update inputs e.g. p1.inputs[0] = analogRead...; p1.inputs[2] = analogRead...
@@ -10,13 +10,13 @@ Un perceptrón programado para aprendiaje mecánico en Arduino
 5. Train: compared obtained (guess) with some desired e.g. p1.train(desired, obtained);
 
 
-##Examples
+## Examples
 
 1. *Learning_Color_NN* teaching an Arduino color using a color sensor
-2. *playground_learn* teaching an [Adafruit Circuit Playgound](https://www.adafruit.com/product/3000) how to get the right position using accelerometer.
+2. *playground_learn* teaching an [Adafruit Circuit Playgound] (https://www.adafruit.com/product/3000) how to get the right position using accelerometer.
 3. *playground_learn_color* Adafruit Circuit Playground learning colors.
 
-##License
+## License
 
 MIT License
 
